@@ -8,6 +8,7 @@ import AppointmentList from './pages/AppointmentList';
 import AppointmentCalendar from './components/Calendar'; // Import the new Calendar component
 import GlobalStyles from './styles/globalStyles';
 
+
 function App() {
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/PatientList">Patient List</Link></li>
-              <li><Link to="/AppointmentList">Appointment List</Link></li>
+              
               <li><Link to="/calendar">Appointment Calendar</Link></li> {/* Add calendar link */}
 
             </ul>
